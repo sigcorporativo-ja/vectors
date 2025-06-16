@@ -29,12 +29,14 @@
   },
   "metadata": {
     "name": "Vectors",
-    "description": "Edición",
+    "description": "Creación y edición de capas vectoriales mediante dibujado, con posibilidad de descarga",
     "text": "Herramienta de edición y descarga",
     "version": "1.0.0",
     "date": "Jun 2025",
     "author": "",
     "org": "",
-    "tags": "mapea,plugin"
+    "tags": "mapea,plugin",
+    "centralized": true,
+    "compatibility": ["6"]
   }
 }
