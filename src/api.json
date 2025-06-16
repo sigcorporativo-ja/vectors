@@ -1,0 +1,42 @@
+{
+  "url": {
+    "name": "vectors",
+    "separator": "*"
+  },
+  "constructor": "M.plugin.Vectors",
+  "parameters": [{
+    "type": "object",
+    "properties": [{
+      "type": "simple",
+      "name": "position",
+      "position": 0,
+      "possibleValues": ["TL", "TR", "BL", "BR"]
+    }, {
+      "type": "boolean",
+      "name": "collapsed",
+      "position": 1
+    }, {
+      "type": "boolean",
+      "name": "collapsible",
+      "position": 2
+    }]
+  }],
+  "files": {
+    "ol": {
+      "scripts": ["vectors.ol.min.js"],
+      "styles": ["vectors.ol.min.css"]
+    }
+  },
+  "metadata": {
+    "name": "Vectors",
+    "description": "Creación y edición de capas vectoriales mediante dibujado, con posibilidad de descarga",
+    "text": "Herramienta de edición y descarga",
+    "version": "1.0.0",
+    "date": "Jun 2025",
+    "author": "",
+    "org": "",
+    "tags": "mapea,plugin",
+    "centralized": true,
+    "compatibility": ["6"]
+  }
+}
