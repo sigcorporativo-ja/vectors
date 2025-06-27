@@ -13,7 +13,7 @@
 div.ol-overlaycontainer-stopevent > div > div.m-area > div.m-panel.m-vectors.collapsed > button:before,
 div.m-vectors [class^="icon-"],
 div.m-vectors [class*=" icon-"] {
-  font-family: "vectors";
+  font-family: "vectors" !important;
   font-style: normal;
   font-weight: normal;
   speak: none;
